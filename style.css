@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 120%;
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://media.istockphoto.com/vectors/group-diverse-of-people-with-disabilities-work-together-in-office-vector-id1298415912?k=20&m=1298415912&s=612x612&w=0&h=LyGv9nGG01YMpwEvfVB0G_h3oJvIM9B_WWu73-GKhYE=);
+
+}
+
+.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: beige;
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://media.istockphoto.com/vectors/group-diverse-of-people-with-disabilities-work-together-in-office-vector-id1298415912?k=20&m=1298415912&s=612x612&w=0&h=LyGv9nGG01YMpwEvfVB0G_h3oJvIM9B_WWu73-GKhYE=);
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://media.istockphoto.com/vectors/group-diverse-of-people-with-disabilities-work-together-in-office-vector-id1298415912?k=20&m=1298415912&s=612x612&w=0&h=LyGv9nGG01YMpwEvfVB0G_h3oJvIM9B_WWu73-GKhYE=);
+    border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+.hero-btn {
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    background: blanchedalmond;
+    border: none;
+    border-radius: 5px;
+}
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}

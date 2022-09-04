@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 150vh;
+    width: 100%;
+    background-color: skyblue;
+    //background-image: linear-gradient(rgb(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeXNt1Blvn56905Rm-GvdfJnd8nPN7l8k94A&usqp=CAU);
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://media.istockphoto.com/vectors/group-diverse-of-people-with-disabilities-work-together-in-office-vector-id1298415912?k=20&m=1298415912&s=612x612&w=0&h=LyGv9nGG01YMpwEvfVB0G_h3oJvIM9B_WWu73-GKhYE=);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box{
+    font-family: cursive;
+    width:90%;
+    color:#ffffff;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.text-box p{
+    margin:10px 0 40px;
+    font-size:62px;
+    color:#fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border:1px solid #fff;
+    padding: 12px 500px;
+    font-size:40px;
+    background:transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+nav .fa{
+    display: none;
+}
+@media(max-width:700px){
+    .text-box h1{
+        font-size:20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height:100vh;
+        width:200px;
+        top: 0;
+        right:-200%;
+        text-align: left;
+        z-index:2;
+        transition: 1s;
+    }
+    nav.fa{
+        display:block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    nav.fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+}

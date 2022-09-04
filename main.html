@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name = "Viewport" content = "with = device-width,initial-scale = 1.0">
+    <title>Home</title>
+    <link rel = "stylesheet" href = "mainpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <link rel ="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class ="header">
+        <nav>
+            <a href = "main.html"><img src="https://www.swavlambancard.gov.in/images/logo-chied-commissioner-gov.png" height="50" width = "30"></a>
+            <a href = "main.html"><img src="https://www.swavlambancard.gov.in/images/logo-ministry-of-sje-gov.png" height="50" width = "30"></a>
+            <div class = "nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <p id = "top" ></p>
+                   <li><a href="main.html">Home</a></li>
+                   <li><a href="#schemes">Schemes</a></li>
+                   <li><a href="popupbox.html1">News</a></li>
+                   <li><a href="achievers.html">Achievers</a></li>
+                   <li><a href="Contact.html">Contact</a></li>
+               </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class = "text-box">
+        <h2><i>"I don't have a dis-ability,I have a different-ability"<br>-Robert M. Hensel<br><a href="login.php" class = "hero-btn">Login</a></i></h2>
+
+    </div>
+
+    </section>
+    <!-----------------Schemes--------------------->
+
+    <section class = "schemes">
+        <p id = "schemes" ></p>
+        <h>Schemes</h>
+        <p>Welfare Schemes for a cross section of the society</p>
+        <div class="row">
+            <div class ="schemes-col">
+                <h2>Physical Disability</h2>
+                <p>Locomotor Disability<br>Visual Impairment<br>Hearing Impairment<br>Speech and Language Disability</p>
+                <a href="phy.html" class = "her-btn">More</a></i>
+            </div>
+            <div class="schemes-col">
+                <h2>Intellectual Disability</h2>
+                <p><br>Specific Learning Disabilities<br>Autism Spectrum Disorder<br><br></p>
+                <a href="intldis.html" class = "her-btn">More</a></i>
+            </div>
+            <div class = "schemes-col">
+                <h2>Disability caused due to</h2>
+                <p><br>Chronic Neurological Conditions<br>Blood Disorder<br><br></p>
+                <a href="dis.html" class = "her-btn">More</a></i>
+            </div>
+        </div>
+    </section>
+    <section class = "schemes2">
+        <div class="row2">
+            <div class ="schemes-col2">
+                <h2>Mental Behaviour<br>Mental illness</h2>
+                <center><a href="mendis.html" class = "he-btn">More</a></i></center>
+            </div>
+            <div class = "schemes-col2">
+                <center><h1>Multiple<br>Disabilities</h1></center>
+                <center><a href="mul.html" class = "he-btn">More</a></i></center>
+            </div>
+        </div>
+    </section>
+    <p align = "right"> <a href = "#top"><img src = "data:image/png;base64,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"></a>
+    </p>
+    <center>
+        <a href = "https://www.india.gov.in/"><img src = "https://www.swavlambancard.gov.in/images/logo-india-gov.png"></a>
+        <a href="http://innovationclustersarchive.nic.in/"><img src ="https://www.swavlambancard.gov.in/images/logo-ministry-of-sje-gov.png"></a>
+        <a  href="http://www.ccdisabilities.nic.in/"><img src="https://www.swavlambancard.gov.in/images/logo-chied-commissioner-gov.png"></a>
+        <a href = "https://www.mygov.in/"><img src="https://www.swavlambancard.gov.in/images/logo-mygov.png"></a>
+    </center>
+
+    <!-----JAVA SCRIPT FOR TOOGLE MENU ------>
+<script>
+    var navLinks = document.getElementsById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+   </body>
+</html>
